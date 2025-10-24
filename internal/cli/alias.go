@@ -66,6 +66,6 @@ func (a *AliasInitializer) Run() (string, error) {
 		return "", fmt.Errorf("failed to write alias: %w", err)
 	}
 
-	msg := fmt.Sprintf("✅ Alias added to %s\nPlease run: source %s", a.ShellRC, a.ShellRC)
+	msg := fmt.Sprintf("Alias added to %s\nPlease run: source %s", a.ShellRC, a.ShellRC)
 	return msg, nil
 }

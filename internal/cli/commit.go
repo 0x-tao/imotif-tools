@@ -44,7 +44,7 @@ func (c *CommitPrompter) RunCommit(msg ...string) error {
 		return err
 	}
 
-	finalMessage := fmt.Sprintf("%s [%s] %s", formattedTask, commitType, message)
+	finalMessage := fmt.Sprintf("%s[%s] %s", formattedTask, commitType, message)
 
 	err = c.runGitCommit(finalMessage)
 	if err != nil {
@@ -82,7 +82,7 @@ func (c *CommitPrompter) promptCommitType() (string, error) {
 		"CHORE": "Maintenance tasks (e.g., config, build)",
 		"PERF":  "Performance improvements",
 		"FEAT":  "Introduce a new feature",
-		"ISS":   "Work related to a reported issue or bug ticket",
+		"ISS":   "Work related to a reported issue or bug task",
 	}
 
 	fmt.Println("Available Commit Types:")
