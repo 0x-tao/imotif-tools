@@ -12,7 +12,7 @@ import (
 	"github.com/imotif-tools/internal/update"
 )
 
-const version = "v1.1.1"
+const version = "v1.1.2"
 
 func main() {
 	args := os.Args
