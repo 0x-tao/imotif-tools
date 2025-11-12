@@ -25,13 +25,13 @@
 ### macOS / Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Tao-Toxicboy19/imotif-tools/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/0x-tao/imotif-tools/main/install.sh | bash
 ````
 
 ### Windows (PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/Tao-Toxicboy19/imotif-tools/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/0x-tao/imotif-tools/main/install.ps1 | iex
 ```
 
 ---
