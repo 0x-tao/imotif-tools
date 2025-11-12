@@ -1,4 +1,4 @@
-# 🚀 IMOTIF Tools – v1.0.9
+# 🚀 IMOTIF Tools – v1.1.3
 
 > Generate Git commit messages interactively, quickly, and consistently.  
 > Plus, run Odoo addon tests directly from your CLI.
